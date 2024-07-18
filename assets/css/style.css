@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "figtree", sans-serif;
+    }
+    body{
+      background-color:hsl(47, 88%, 63%) ;
+      height: 100vh;
+      display: grid;
+      place-content: center;
+      place-items: center;
+    }
+    .container{
+      border: 1px solid;
+      width: 400px;
+      display: flex;
+      flex-direction: column;   
+      background-color: hsl(0, 0%, 100%);
+      margin: 18px;
+      padding: 18px 24px;
+      border-radius: 14px;
+      box-shadow: 8px 8px #000;
+      
+    }
+    .container .illustration-article-img{
+      margin-bottom: 18px;
+      border-radius: 18px;
+    }
+    
+    .container h5.category{
+      background-color: hsl(47, 88%, 63%);
+      width: fit-content;
+      padding: 6px 12px;
+      border-radius: 3px;
+      margin-bottom: 18px;
+    }
+    .container h6.publish-date{
+      margin-bottom: 20px;
+    }
+    .container h2.card-title{
+      margin-bottom: 20px;
+      font-size: 26px;
+    }
+    .container p.description{
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: hsl(0, 0%, 42%);
+    } 
+    .container .footer{
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-weight: 800;
+    }
+    .container .footer img{
+      width: 45px;
+    }
+
+/* responseness */
+    /* mobile responsevness */
+@media screen and (max-width:768px) {
+ 
+    .container{
+        width: 300px;
+        margin: 14px;
+      }
+      .container .illustration-article-img{
+        margin-bottom: 16px;
+      }
+      
+      .container h5.category{
+        margin-bottom: 16px;
+      }
+      .container h6.publish-date{
+        margin-bottom: 16px;
+      }
+      .container h2.card-title{
+        margin-bottom: 16px;
+        font-size: 21px;
+      }
+      .container p.description{
+        font-size: 14px;
+        margin-bottom: 16px;
+      } 
+
+      .container .footer img{
+        width: 40px;
+      }
+}
+
+
+
+
+
